@@ -1,0 +1,6 @@
+interface:
+  display_name: "Gherkin"
+  short_description: "Write and review behavior-focused Gherkin scenarios"
+  default_prompt: "Use $gherkin to review these scenarios, preserving confirmed behavior and separating binding findings from contextual suggestions."
+policy:
+  allow_implicit_invocation: true
